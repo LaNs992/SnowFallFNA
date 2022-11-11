@@ -68,7 +68,7 @@ namespace GameEngine
                     Color.White);
                 foreach (var snowflake in obj)
                 {
-                    snowflake.Y += snowflake.Size / 4;
+                    snowflake.Y += snowflake.Size / 5;
                     snowflake.X += snowflake.Size/8;
                     if (snowflake.Y > graphics.PreferredBackBufferHeight)
                     {
